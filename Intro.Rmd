@@ -1,0 +1,39 @@
+---
+title: "Intro"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Most part of time I spent on about this book building homework is installing packages. And there are basically three ways I used, CRAN, Github, downloading zip file.
+
+First two methods are very accessible, however, some package need us to download directly from website, where in this case we need to unzip the file to the library address, otherwise the package won't work.
+
+The following is a bug for every Windows user. system.time(mclapply(1:10, pause(0.25), mc.cores = cores)) is not support by Windows. However, Hadley has already provided the alternative method for us. What we need to do is just a easy substution.
+
+```{r}
+library(parallel)
+```
+
+```{r, cache = TRUE}
+cores <- detectCores()
+cores
+
+pause <- function(i) {
+  function(x) Sys.sleep(i)
+}
+
+system.time(lapply(1:10, pause(0.25)))
+system.time(mclapply(1:10, pause(0.25), mc.cores = cores))
+```
+
+Life is a bit harder in Windows. You need to first set up a local cluster and then use `parLapply()`: \indexc{mclapply()} \indexc{parLapply()}
+
+```{r, cache = TRUE}
+cluster <- makePSOCKcluster(cores)
+system.time(parLapply(cluster, 1:10, function(i) Sys.sleep(i)))
+```
+
+Installation and updating will always fix most bugs. So I hope this will provide some help. And somethimes restarting Windows really works!
