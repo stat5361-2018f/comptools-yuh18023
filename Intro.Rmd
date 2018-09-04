@@ -1,11 +1,3 @@
----
-title: "Intro"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Most part of time I spent on about this book building homework is installing packages. And there are basically three ways I used, CRAN, Github, downloading zip file.
 
