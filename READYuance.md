@@ -27,4 +27,4 @@ cluster <- makePSOCKcluster(cores)
 system.time(parLapply(cluster, 1:10, function(i) Sys.sleep(i)))
 ```
 
-Installation and updating will always fix most bugs. So I hope this will provide some help. And somethimes restarting Windows really works!
+The most inportant thing is that installation and updating will always fix most bugs. So I hope this will provide some help. And somethimes restarting Windows really works!
