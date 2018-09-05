@@ -1,4 +1,4 @@
-Most part of time I spent on about this book building homework is installing packages. And there are basically three ways I used, CRAN, Github, downloading zip file.
+Most part of time I spent on about this book building homework is installing packages. And there are basically three ways I used, CRAN, Github, and downloading zip file.
 
 First two methods are very accessible, however, some package need us to download directly from website, where in this case we need to unzip the file to the library address, otherwise the package won't work.
 
