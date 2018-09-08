@@ -1,0 +1,54 @@
+[0m[0K]0;:/c/Users/Yuance He/Documents/comptools-yuh18023[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K"[0KN[0Ke[0Kw[0K[21G[?25l$ git commit -m"New R[0K[?25hE[0KA[0KD[0KM[0KE[0K"[0K[?25l
+[0K[?25h[master ad5ad0e] New README[0K[?25l
+ 3 files changed, 6 insertions(+), 37 deletions(-)[0K
+ create mode 100644 .Rbuildignore[0K
+ create mode 100644 .gitignore[0K
+ delete mode 100644 README.md[0K
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 5, done.[0K[?25l
+Counting objects: 100% (5/5), done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (2/2), done.[0K
+Writing objects: 100% (4/4), 374 bytes | 374.00 KiB/s, done.[0K
+Total 4 (delta 1), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (1/1), completed with 1 local object.[0K[?25l
+[0K[?25hTo https://github.com/stat5361-2018f/comptools-yuh18023.git[0K[?25l
+   a39bd42..ad5ad0e  master -> master[0K
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEverything up-to-date[0K[?25l
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ a[0K[?25hd[0Kd[0K[?25l$ ad[0K[?25h[?25l$ a[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[16G[?25l$ git commit -m"[0K[?25hN[0Ke[0Kw[0K[21G[?25l$ git commit -m"New R[0K[?25hE[0KA[0KD[0KM[0KE[0K[?25l.[0K[27G[?25h[28G[?25l$ git commit -m"New README.m[0K[28G[?25h[29G[?25l$ git commit -m"New README.md[0K[?25h"[0K[?25l
+[0K[?25h[master 9dc63e1] New README.md[0K[?25l
+ 1 file changed, 0 insertions(+), 0 deletions(-)[0K
+ rename READYuance.md => README.md (100%)[0K
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 3, done.[0K[?25l
+Counting objects: 100% (3/3), done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (2/2), done.[0K
+Writing objects: 100% (2/2), 232 bytes | 232.00 KiB/s, done.[0K
+Total 2 (delta 1), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (1/1), completed with 1 local object.[0K[?25l
+[0K[?25hTo https://github.com/stat5361-2018f/comptools-yuh18023.git[0K[?25l
+   ad5ad0e..9dc63e1  master -> master[0K
+[0K[?25h[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+]0;:/c/Users/Yuance He/Documents/comptools-yuh18023[?25l
+[0;32mYuance He@Yuance-He [0;35m [0;33m~/Documents/comptools-yuh18023[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25h
